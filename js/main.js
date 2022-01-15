@@ -5,3 +5,4 @@ $(document).ready(() => {
 
   particlesJS.load('particles-js', 'particlesjs.json');
 });
+   

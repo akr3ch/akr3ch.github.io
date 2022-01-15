@@ -3,6 +3,10 @@ canvas {
   vertical-align: bottom;
 }
 
+body {
+  background-color: #000000;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
