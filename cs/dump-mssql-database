@@ -1,0 +1,2 @@
+                           		 		  	    					      			𝗗𝘂𝗺𝗽 𝗠𝗦𝗦𝗤𝗟 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲
+SELECT json_arrayagg(concat_ws(0x3a,table_schema,table_name)) from INFORMATION_SCHEMA.TABLES;
