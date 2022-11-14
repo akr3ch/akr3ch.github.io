@@ -1,0 +1,9 @@
+{
+    "url": "https://akr3ch.github.io/payloads/swagger/nuclei.yaml",
+    "urls": [
+        {
+            "url": "https://akr3ch.github.io/payloads/swagger/nuclei.yaml",
+            "name": "akr3ch"
+        }
+    ]
+}
