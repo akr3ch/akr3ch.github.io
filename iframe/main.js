@@ -7,5 +7,6 @@ window.onload = function() {
   iframe.style.width = '100%';
   iframe.style.height = '100%';
   iframe.style.border = 'none';
+  iframe.style.backgroundColor = 'white';
   document.body.appendChild(iframe);
 };
